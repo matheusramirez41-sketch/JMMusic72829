@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="google-site-verification" content="SvIhS9CS3ZVipEAJ7OU0I5qi17-xznpC1SEfUexMvGo" />
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WCQFKNVC');</script>
+    <!-- End Google Tag Manager -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>JMMUSIC - Tu Música en Alta Fidelidad</title>
+    <meta name="description" content="JMMUSIC: Reproductor de música definitivo con audio de estudio, letras sincronizadas, ecualizador de 10 bandas y modo sin internet." />
+    <meta property="og:title" content="JMMUSIC" />
+    <meta property="og:description" content="JMMUSIC: Reproductor de música definitivo con audio de estudio, letras sincronizadas y modo sin internet." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#020617" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="JMMUSIC" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: #020617;
+        color: #ffffff;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        overscroll-behavior: none;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      @keyframes jm-pulse {
+        0%, 100% { opacity: 0.6; transform: scale(0.98); }
+        50% { opacity: 1; transform: scale(1.02); }
+      }
+      @keyframes jm-bar {
+        0%, 100% { height: 6px; }
+        50% { height: 26px; }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCQFKNVC"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Immediate 0ms Splash Screen: Prevents blank screen on Netlify, Google, APKPure, Uptodown & WebViews -->
+    <div id="root">
+      <div id="jm-initial-splash" style="min-height:100vh;background:#020617;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;text-align:center;box-sizing:border-box;">
+        <div style="width:80px;height:80px;border-radius:24px;background:linear-gradient(135deg,#6366f1,#8b5cf6,#ec4899);display:flex;align-items:center;justify-content:center;box-shadow:0 20px 40px rgba(99,102,241,0.35);margin-bottom:24px;animation:jm-pulse 2s ease-in-out infinite;">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 18V5l12-2v13"></path>
+            <circle cx="6" cy="18" r="3"></circle>
+            <circle cx="18" cy="16" r="3"></circle>
+          </svg>
+        </div>
+
+        <h1 style="font-size:26px;font-weight:900;letter-spacing:-0.5px;margin:0 0 8px 0;background:linear-gradient(to right,#ffffff,#c7d2fe,#a5b4fc);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">
+          JMMUSIC
+        </h1>
+        <p style="font-size:13px;color:#94a3b8;margin:0 0 28px 0;font-weight:500;">
+          Tu Música en Alta Fidelidad
+        </p>
+
+        <!-- Soundwave loading animation -->
+        <div style="display:flex;align-items:center;gap:4px;height:32px;margin-bottom:16px;">
+          <div style="width:4px;background:#6366f1;border-radius:2px;animation:jm-bar 1s ease-in-out infinite;"></div>
+          <div style="width:4px;background:#8b5cf6;border-radius:2px;animation:jm-bar 1s ease-in-out infinite 0.2s;"></div>
+          <div style="width:4px;background:#ec4899;border-radius:2px;animation:jm-bar 1s ease-in-out infinite 0.4s;"></div>
+          <div style="width:4px;background:#06b6d4;border-radius:2px;animation:jm-bar 1s ease-in-out infinite 0.1s;"></div>
+          <div style="width:4px;background:#10b981;border-radius:2px;animation:jm-bar 1s ease-in-out infinite 0.3s;"></div>
+        </div>
+
+        <span style="font-size:11px;color:#64748b;letter-spacing:0.5px;">Cargando catálogo y ecualizador...</span>
+      </div>
+    </div>
+
+    <!-- Safety Watchdog: Recovers gracefully if scripts take long or if WebView blocks modules -->
+    <script>
+      (function() {
+        // Storage safety wrapper for strict Android WebViews (APKPure, Uptodown)
+        try {
+          var testKey = '__jm_test__';
+          window.localStorage.setItem(testKey, testKey);
+          window.localStorage.removeItem(testKey);
+        } catch(e) {
+          console.warn('Storage restricted, polyfilling with memory storage:', e);
+          var memStore = {};
+          window.localStorage = {
+            getItem: function(k) { return memStore[k] || null; },
+            setItem: function(k, v) { memStore[k] = String(v); },
+            removeItem: function(k) { delete memStore[k]; },
+            clear: function() { memStore = {}; }
+          };
+        }
+
+        // 8-second watchdog: if React has not mounted, offer manual reload
+        setTimeout(function() {
+          var splash = document.getElementById('jm-initial-splash');
+          if (splash) {
+            var reloadBtn = document.createElement('button');
+            reloadBtn.innerText = 'Pulsa para recargar JMMUSIC';
+            reloadBtn.style.marginTop = '24px';
+            reloadBtn.style.padding = '10px 20px';
+            reloadBtn.style.borderRadius = '12px';
+            reloadBtn.style.background = '#4f46e5';
+            reloadBtn.style.color = '#ffffff';
+            reloadBtn.style.border = 'none';
+            reloadBtn.style.fontSize = '12px';
+            reloadBtn.style.fontWeight = 'bold';
+            reloadBtn.style.cursor = 'pointer';
+            reloadBtn.onclick = function() {
+              try { sessionStorage.clear(); } catch(e) {}
+              window.location.reload();
+            };
+            splash.appendChild(reloadBtn);
+          }
+        }, 8000);
+      })();
+    </script>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

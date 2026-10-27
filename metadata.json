@@ -1,0 +1,6 @@
+{
+  "name": "JMMUSIC",
+  "description": "JMMUSIC: Reproductor de música definitivo en alta fidelidad con audio puro, letras sincronizadas, ecualizador de 10 bandas y modo sin internet.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

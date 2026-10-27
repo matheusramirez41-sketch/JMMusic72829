@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#000000" />
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Headphone Band -->
+    <path d="M128 272c0-70.7 57.3-128 128-128s128 57.3 128 128" stroke-width="28" />
+    <!-- Left Ear Cup Cushion -->
+    <rect x="100" y="260" width="56" height="110" rx="28" fill="#ffffff" stroke="#ffffff" stroke-width="4" />
+    <!-- Right Ear Cup Cushion -->
+    <rect x="356" y="260" width="56" height="110" rx="28" fill="#ffffff" stroke="#ffffff" stroke-width="4" />
+  </g>
+</svg>
